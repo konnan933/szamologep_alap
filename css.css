@@ -13,7 +13,7 @@ article {
     grid-template-columns: 2fr 1fr;
     grid-gap: 5px;
 }
-.kijelzo {
+#kijelzo {
     grid-area: kij;
     border: 1px solid gray;
     border-radius: 8px;
@@ -22,20 +22,25 @@ article {
     font-weight: bold;
     padding: 5px;
 }
-.szamok {
-   
+#szamok {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-evenly;
 }
-.szamok button {
-    
+#szamok button {
+    width: 31%;
+    height: 40px;
+
 }
-.muvjelek {
+#muvjelek {
     grid-area: muv;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
 }
-.muvjelek button {
+#muvjelek button {
   
     width: 30px;
 }
